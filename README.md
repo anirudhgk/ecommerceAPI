@@ -77,6 +77,6 @@ The API provides the following endpoints:
 - **DELETE /api/v1/products/{product_id}** : Delete a product.
 - **GET /api/v1/customername?product_name={product_name}&city={city}** : Get customer names who ordered a particular product to a particular city.
 
-### *Use the postman collection from the code to test the APIs.
+### *Use the postman collection from the code to test the APIs.*
 
 
