@@ -17,6 +17,7 @@ namespace EcommerceApi.Controllers
             _configuration = configuration;
         }
 
+        // GET Customers
         [HttpGet("customers")]
         public ActionResult<IEnumerable<Customer>> Get()
         {
@@ -48,6 +49,7 @@ namespace EcommerceApi.Controllers
             return Ok(customers);
         }
 
+        // GET customer from id
         [HttpGet("customer/{id}")]
         public ActionResult<Customer> GetById(int id)
         {
@@ -79,6 +81,7 @@ namespace EcommerceApi.Controllers
             return NotFound();
         }
 
+        // GET Products
         [HttpGet("products")]
         public ActionResult<IEnumerable<Product>> GetProducts()
         {
