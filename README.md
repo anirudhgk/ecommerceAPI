@@ -27,7 +27,7 @@ Follow these steps to set up the project:
 2. Navigate to the project directory:
 
     ```shell
-    cd ecommerceApi
+    cd ecommerceAPI
 
 3. Install the dependencies and restore the packages needed:
 

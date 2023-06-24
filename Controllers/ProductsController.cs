@@ -163,7 +163,7 @@ namespace EcommerceApi.Controllers
             }
         }
 
-        //GET customer orders by customer id
+        // GET customer orders by customer id
         [HttpGet("customer/{id}/orders")]
         public ActionResult<IEnumerable<Order>> GetCustomerOrders(int id)
         {
@@ -194,7 +194,7 @@ namespace EcommerceApi.Controllers
             return Ok(orders);
         }
 
-        // GET item info by item id
+        // GET item info by item id (product info from product id)
         [HttpGet("products/{product_id}")]
         public ActionResult<Product> GetItemInfo(int product_id)
         {
