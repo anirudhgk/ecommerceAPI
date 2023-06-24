@@ -1,0 +1,36 @@
+# Ignore Visual Studio files
+.vs/
+bin/
+obj/
+
+# Ignore build artifacts
+*.exe
+*.dll
+*.pdb
+*.swp
+*.suo
+*.cache
+
+# Ignore NuGet packages
+*.nupkg
+/packages/
+
+# Ignore user-specific files
+*.user
+*.sln.dotsettings.user
+*.suo
+*.userprefs
+
+# Ignore logs and other generated files
+*.log
+logs/
+
+# Ignore macOS-specific files
+.DS_Store
+._*
+
+# Ignore JetBrains Rider specific files
+.idea/
+
+# Ignore Visual Studio Code specific files
+.vscode/
