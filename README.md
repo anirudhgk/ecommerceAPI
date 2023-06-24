@@ -7,8 +7,7 @@ This project is an Ecommerce API that provides endpoints for managing customers,
 - [Installation](#installation)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
-- [Contributing](#contributing)
-- [License](#license)
+- [Snapshots](#snapshots)
 
 ## Installation
 
@@ -79,4 +78,15 @@ The API provides the following endpoints:
 
 ### *Use the postman collection from the code to test the APIs.*
 
+## Snapshots
 
+1. ![Get a list of all customers](images/getCustomers.png)
+2. ![Get a customer by ID](images/getCustomerById.png)
+3. ![Get a list of all products](images/getProducts.png)
+4. ![Create a new sales order](images/postSalesOrder.png)
+5. ![Get customer orders by customer ID](images/getCustomerOrderById.png)
+6. ![Get product information by product ID](images/getProductInfoById.png)
+7. ![Create a new product](images/postProduct.png)
+8. ![Update an existing product](images/putProduct.png)
+9. ![Delete a product](images/deleteProduct.png)
+10. ![Get customer names who ordered a particular product to a particular city](images/getCustomerByProductByCity.png)

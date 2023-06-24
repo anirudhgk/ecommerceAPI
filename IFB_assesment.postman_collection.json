@@ -137,7 +137,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5068/api/v1/products/{product_id}",
+					"raw": "http://localhost:5068/api/v1/products",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -146,8 +146,7 @@
 					"path": [
 						"api",
 						"v1",
-						"products",
-						"{product_id}"
+						"products"
 					]
 				}
 			},
