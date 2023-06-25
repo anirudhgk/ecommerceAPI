@@ -181,7 +181,6 @@ namespace EcommerceApi.Controllers
                         shippingCommand.ExecuteNonQuery();
                     }
 
-                    // Return a success response
                     return Ok("Record inserted successfully");
                 }
             }
