@@ -39,12 +39,7 @@ Follow these steps to set up the project:
 
 6. Update the database connection string in the appsettings.json file to point to your MySQL database, be sure to check and give the correct credentials correctly.
 
-7. Run database migrations to create the necessary tables:
-
-    ```shell
-    dotnet ef database update
-
-8. Start the API server:
+7. Start the API server:
 
     ```shell
     dotnet run
