@@ -37,7 +37,7 @@ Follow these steps to set up the project:
 
 5. Run the SQL scripts, for ease of creating tables
 
-6. Update the database connection string in the appsettings.json file to point to your MySQL database, be sure to check and give the correct credentials correctly.
+6. Update the database connection string in the appsettings.json file to point to your MySQL database, be sure to check and give the credentials correctly.
 
 7. Start the API server:
 
